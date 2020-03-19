@@ -1,9 +1,3 @@
-<p align="center">
-    <img src="https://avatars0.githubusercontent.com/u/36246510?s=200&v=4">
-    <h1 align="center">Laravel Fixtures Package</h1>
-    <br>
-</p>
-
 Fixtures are used to load a "fake" set of data into a database that can then be used for testing or to help give you some interesting data while you're developing your application. 
 
 A fixture may depend on other fixtures, specified via its `KuznetsovZfort\Fixture\Fixture::$depends` property. When a fixture is being loaded, the fixtures it depends on will be automatically loaded BEFORE the fixture; and when the fixture is being unloaded, the dependent fixtures will be unloaded AFTER the fixture.
