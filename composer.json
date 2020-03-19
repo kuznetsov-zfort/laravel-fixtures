@@ -1,0 +1,24 @@
+{
+    "name": "kuznetsov-zfort/laravel-fixtures",
+    "description": "Fork of abandoned laravelflux/laravel-fixtures package.",
+    "type": "library",
+    "keywords": ["laravel", "fixture"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gary Kuznetsov",
+            "email": "kuznetsov@zfort.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1",
+        "illuminate/database": "~5.5",
+        "illuminate/support": "~5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "KuznetsovZfort\\Fixture\\": "src/"
+        }
+    }
+}
